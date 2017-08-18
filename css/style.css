@@ -182,6 +182,11 @@ body {
   padding: 20px;
   height: auto;
 }
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+}
 
 .container {
   max-width: 1121px;
@@ -204,6 +209,12 @@ body {
 @media (max-width: 640px) {
   .container {
     padding: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    padding: 20px;
+    font-size: 16px;
   }
 }
 
@@ -514,12 +525,14 @@ body {
   .left {
     width: 100%;
     padding: 0 15%;
+    min-width: 100%;
   }
 }
 @media (max-width: 640px) {
   .left {
     width: 100%;
     padding: 0;
+    min-width: 100%;
   }
 }
 
@@ -553,6 +566,9 @@ body {
 
 .group-block {
   margin-bottom: 40px;
+}
+.group-block li {
+  line-height: 24px;
 }
 
 .resume-title {
@@ -598,6 +614,12 @@ body {
 
 .icons-icons-behance {
   margin: -10px 5px -10px 0;
+}
+
+@media (max-width: 480px) {
+  .setting-font15px {
+    font-size: 15px;
+  }
 }
 
 .icons-sprite, .icons-icons-address, .icons-icons-behance, .icons-icons-birthday, .icons-icons-close, .icons-icons-gender, .icons-icons-mail, .icons-icons-phone {
