@@ -4,9 +4,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 	<meta name="format-detection" content="telephone=no" /><!-- 解除iOS手機電話link -->
-	<link href="css/style.css" rel="stylesheet" />
 	<title>KAPPA CHANG 張惠婷</title>
 	<meta name='description' content='對生活秉持著認真、負責、努力的態度，認為生活中的一切皆與設計有關。期望能以自身的能力，透過設計，將才能善盡其用，分散在生活中每個角落，讓生活變得更加美好。願跟公司一起成長接受新的挑戰。'/>
+	<link href="css/style.css" rel="stylesheet" />
+	<link href="css/animate.css" rel="stylesheet">
 	<style>
 		@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Poppins:300,500,600');
 	</style>
@@ -16,12 +17,12 @@
 	<div class="container">
 
 		<div class="full clearfix">
-			<div class="img"><img src="images/photo.png"></div>
+			<div class="img wow flipInX" data-wow-delay=".3s"><img src="images/photo.png"></div>
 			<div class="content">
-				<h1 class="name-group">
+				<h1 class="name-group wow fadeInDown" data-wow-offset="100" data-wow-delay="1.2s">
 					<span class="en-name">KAPPA CHANG</span>
 					<span class="ch-name">張惠婷</span></h1>
-				<div class="desc">對生活秉持著認真、負責、努力的態度，認為生活中的一切皆與設計有關。期望能以自身的能力，透過設計，將才能善盡其用，分散在生活中每個角落，讓生活變得更加美好。願跟公司一起成長接受新的挑戰。</div>
+				<div class="desc wow fadeInUp" data-wow-offset="100" data-wow-delay=".3s">對生活秉持著認真、負責、努力的態度，認為生活中的一切皆與設計有關。期望能以自身的能力，透過設計，將才能善盡其用，分散在生活中每個角落，讓生活變得更加美好。願跟公司一起成長接受新的挑戰。</div>
 			</div>
 		</div>
 
@@ -29,7 +30,7 @@
 
 			<!-- left start -->
 			<div class="left">
-				<div class="group-block setting-font15px">
+				<div class="group-block setting-font15px wow fadeInUp" data-wow-delay="1.5s">
 					<ul>
 						<li><i class="icons icons-icons-birthday"></i>1987/09/10</li>
 						<li><i class="icons icons-icons-phone"></i>0916-239-595</li>
@@ -39,7 +40,7 @@
 						<li><i class="icons icons-icons-behance"></i><a href="https://www.behance.net/kappachang" target="_blank">www.behance.net/kappachang</a></li>
 					</ul>
 				</div>
-				<div class="group-block">
+				<div class="group-block wow fadeInUp" data-wow-delay="1.8s">
 					<h2 class="resume-title">優點</h2>
 					<ul>
 						<li><i class="icons icons"></i>認真負責</li>
@@ -47,14 +48,14 @@
 						<li><i class="icons icons"></i>樂觀開朗</li>
 					</ul>
 				</div>
-				<div class="group-block">
+				<div class="group-block wow fadeInUp" data-wow-offset="200" data-wow-delay=".3s">
 					<h2 class="resume-title">學歷</h2>
 					<ul>
 						<li>2005 - 2009</li>
 						<li>親民技術學院 數位媒體設計系</li>
 					</ul>
 				</div>
-				<div class="group-block">
+				<div class="group-block wow fadeInUp" data-wow-offset="200" data-wow-delay=".3s">
 					<h2 class="resume-title">證照</h2>
 					<ul>
 						<li>FrontPage 網頁設計丙級檢定</li>
@@ -62,7 +63,7 @@
 						<li>中打丙級合格證書</li>
 					</ul>
 				</div>
-				<div class="group-block">
+				<div class="group-block wow fadeInUp" data-wow-offset="200" data-wow-delay=".3s">
 					<h2 class="resume-title">興趣</h2>
 					<ul>
 						<li>看電影、球類運動、游泳、踏青...等</li>
@@ -74,24 +75,32 @@
 			<!-- right start -->
 			<div class="right">
 				<div class="group-block">
-					<h2 class="resume-title">工作經驗</h2>
-					<h3 class="resume-subtitle">2012 ‒ 2017 希幔數位 - 視覺設計（仍在職）</h3>
-					<div class="desc">主要負責 MUZIK 古典音樂線上平台整體品牌形像的規範與製作，工作內容從討論、規劃到執行皆有參與。其範圍包含官方網站前後台視覺與介面設計;手機、平板、電視介面設計;品牌活動文宣物、EDM、活動網頁設計(RWD、HTML、CSS)...等。</div>
-					<h3 class="resume-subtitle">2011 - 2017 其它設計接案</h3>
-					<div class="desc">網站設計、APP 設計、LOGO 設計、名片設計、平面設計...等。</div>
-					<h3 class="resume-subtitle">2010 ‒ 2012 泰博科技 - 網站設計助理</h3>
-					<div class="desc">主要負責 FORA 福爾醫療器材品牌網站改版提案與製作、頁面的維護與更新，血糖機、血壓計、器材使用的操作腳本與動畫和一些專案美編協助。</div>
-					<h3 class="resume-subtitle">2009 ‒ 2010 源創力 - 行銷企劃助理</h3>
-					<div class="desc">主要負責協助專案企劃的執行製作、平面美編設計、品牌官方網站的更新維護與一般行政庶務。</div>
+					<div class="wow fadeInUp" data-wow-delay="1.5s">
+						<h2 class="resume-title">工作經驗</h2>
+						<h3 class="resume-subtitle">2012 ‒ 2017 希幔數位 - 視覺設計（仍在職）</h3>
+						<div class="desc">主要負責 MUZIK 古典音樂線上平台整體品牌形像的規範與製作，工作內容從討論、規劃到執行皆有參與。其範圍包含官方網站前後台視覺與介面設計;手機、平板、電視介面設計;品牌活動文宣物、EDM、活動網頁設計(RWD、HTML、CSS)...等。</div>
+					</div>
+					<div class="wow fadeInUp" data-wow-delay="1.8s">
+						<h3 class="resume-subtitle">2011 - 2017 其它設計接案</h3>
+						<div class="desc">網站設計、APP 設計、LOGO 設計、名片設計、平面設計...等。</div>
+					</div>
+					<div class="wow fadeInUp" data-wow-offset="200" data-wow-delay=".3s">
+						<h3 class="resume-subtitle">2010 ‒ 2012 泰博科技 - 網站設計助理</h3>
+						<div class="desc">主要負責 FORA 福爾醫療器材品牌網站改版提案與製作、頁面的維護與更新，血糖機、血壓計、器材使用的操作腳本與動畫和一些專案美編協助。</div>
+					</div>
+					<div class="wow fadeInUp" data-wow-offset="200" data-wow-delay=".3s">
+						<h3 class="resume-subtitle">2009 ‒ 2010 源創力 - 行銷企劃助理</h3>
+						<div class="desc">主要負責協助專案企劃的執行製作、平面美編設計、品牌官方網站的更新維護與一般行政庶務。</div>
+					</div>
 				</div>
-				<div class="group-block">
+				<div class="group-block wow fadeInUp" data-wow-offset="200" data-wow-delay=".3s">
 					<h2 class="resume-title">技能</h2>
 					<ul>
 						<li>繪圖: Photoshop、Illustrator、Sketch</li>
 						<li>網頁: HTML、CSS、SCSS、Compass、Susy、EDM、RWD</li>
 					</ul>
 				</div>
-				<div class="group-block">
+				<div class="group-block wow fadeInUp" data-wow-offset="200" data-wow-delay=".3s">
 					<h2 class="resume-title">進修</h2>
 					<ul>
 						<li>JavaScript JQuery 程式設計入門班</li>
@@ -108,6 +117,12 @@
 		</div>
 	</div>
 	<!-- container end -->
+
+<script type="text/javascript" src="js/plug/wow.min.js"></script>
+
+<script>
+	new WOW().init();
+</script>
 
 </body>
 </html>
