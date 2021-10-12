@@ -1,0 +1,52 @@
+// layout 結構
+
+$fontStyle: 'Noto Sans', "微軟正黑體", "LiHei Pro", sans-serif;
+$backGroundColor: $white30;
+$resumeTitleColor: #88C897;
+
+html, body {
+  height: 100%;
+  font-family: $fontStyle;
+  font-weight: 400;
+}
+body {
+  background: $backGroundColor;
+  padding: 20px;
+  height: auto;
+
+  @include mobile {
+    padding: 10px;
+  }
+}
+.container-fluid {
+    width: 100%;
+}
+.header {
+    width: 100%;
+}
+.container {
+    @include border-box-sizing;
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+    position: relative;
+    padding: 40px 80px;
+    font-size: $fontSize18;
+    line-height: $lineHeight16;
+    background: $white;
+
+    @include pad {
+        padding: 40px;
+    }
+    @include mobile {
+        padding: 40px 20px;
+        font-size: $fontSize16;
+    }
+    @include small-mobile {
+        padding: 40px 5px;
+        font-size: $fontSize16;
+    }
+}
+.footer {
+    width: 100%;
+}
