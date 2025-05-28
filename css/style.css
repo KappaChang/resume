@@ -1595,6 +1595,12 @@ body {
   text-justify: inter-ideograph;
 }
 
+.desc li {
+  list-style: disc;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
 .icons {
   display: inline-block;
   width: 32px;
